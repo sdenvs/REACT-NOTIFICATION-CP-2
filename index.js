@@ -4,7 +4,11 @@ const Notification = props => {
   return (
     <div className={nstyle}>
       <img className={imageStyle} src={imageUrl}/>
+<<<<<<< HEAD
       <p>{textContent}</p>
+=======
+      <span>{textContent}</span>
+>>>>>>> f39c76985f538b15fc9710098799a557f9067221
     </div>
   )
 }
